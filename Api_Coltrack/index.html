@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title> API </title>
+    </head>
+    <body>
+       <section class="boton">
+
+        
+        <!-- <input type="button" class="btn btn-primary" value=" DATOS " onclick="javascript:CallWebAPI();" /> -->
+
+    </section>
+    
+        <br>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-20 col-md-20 col-lg-20 col-xl-20">
+                    
+                    <div class="table responsive">
+                        <br>
+                        <table class="table">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th class="centered">NOMBRE</th>
+                                    <th>PLACA</th>
+                                    <th>LON</th>
+                                    <th>LAT</th>
+                                    <th>TIEMPO</th>
+                                    <!-- <th>INACTIVO</th> -->
+                                    <th>UBICACION</th>
+                                    <th>CIUDAD</th>
+                                    <th>VELOCIDAD</th>
+                                    <th>RUMBO</th>
+                                    <th>POI</th>
+                                    <th>COS</th>
+                                    <th>EVENTO</th>
+                                    <th>IGNICION</th>
+                                    <th>ENTRADAS</th>
+                                    <th>TIPO</th>
+                                    <th>ODOMETRO</th>
+                                    <th>TEMPERATURA</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody_Data"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class= "app" ></div> -->
+        <script src= "JS/consulta.js" ></script>
+
+        <div>
+            <div id="response">
+        </div>
+            <!-- <input type="button" class="btn btn-primary" value="MOSTRAR DATOS" onclick="javascript:CallWebAPI([fetch]);" /> -->
+    </body>
+</html>
